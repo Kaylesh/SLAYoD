@@ -1,6 +1,6 @@
 {
-	"appName": "example app",
-	"description": "minimal alt1 webpack/ts example test app",
+	"appName": "SLAYoD",
+	"description": "Alt1 PvM Helper for Nex: AoD",
 	"appUrl": "./index.html",
 	"configUrl": "./appconfig.json",
 	"iconUrl": "./icon.png",
