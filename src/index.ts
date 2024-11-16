@@ -18,9 +18,10 @@ var output = document.getElementById("output");
 // with slightly wrong colors
 // this function is async, so you cant acccess the images instantly but generally takes <20ms
 // use `await imgs.promise` if you want to use the images as soon as they are loaded
-var imgs = a1lib.webpackImages({
-	homeport: require("./homebutton.data.png")
-});
+var imgs = {homeport: {
+		width: NaN,
+		height: NaN,
+	}}
 
 // listen for pasted (ctrl-v) images, usually used in the browser version of an app
 a1lib.PasteInput.listen(img => {
