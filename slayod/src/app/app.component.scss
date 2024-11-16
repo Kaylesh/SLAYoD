@@ -1,17 +1,10 @@
 :host {
 }
-
-nz-header,
-nz-footer {
-  height: 10vh;
-  background: #1F1F1F;
+nz-content {
   text-align: center;
 }
 
-nz-content {
-  height: 80vh;
-}
-
 .main-app-header {
+  text-align: center;
   font-size: 2rem;
 }

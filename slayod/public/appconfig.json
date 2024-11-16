@@ -1,9 +1,9 @@
 {
 	"appName": "SLAYoD",
 	"description": "Alt1 PvM Helper for Nex: AoD",
-	"appUrl": "./index.html",
-	"configUrl": "./appconfig.json",
-	"iconUrl": "./icon.png",
+	"appUrl": "index.html",
+	"configUrl": "appconfig.json",
+	"iconUrl": "icon.png",
 	"defaultWidth": 250,
 	"defaultHeight": 250,
 	"minWidth": 250,
