@@ -1,4 +1,14 @@
 <nz-layout>
   <nz-typography class="main-app-header" [nzEllipsis]="true" [nzContent]="title"></nz-typography>
-  <nz-content>{{ testContent }}</nz-content>
+  <nz-content>
+    <nz-typography [nzContent]="testContent"></nz-typography>
+    <div class="button-grid" nz-row nzAlign="middle" nzJustify="space-evenly">
+      <button nz-button nz-col nzSpan="8">Button 1</button>
+      <button nz-button nz-col nzSpan="8">Button 2</button>
+    </div>
+    <div class="button-grid" nz-row nzAlign="middle" nzJustify="space-evenly">
+      <button nz-button nz-col nzSpan="8">Button 3</button>
+      <button nz-button nz-col nzSpan="8">Button 4</button>
+    </div>
+  </nz-content>
 </nz-layout>
